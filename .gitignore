@@ -1,6 +1,8 @@
 # Ignore environment variable files
 TwitterInfo.env
 
+*.env
+
 # Ignore compiled Python files
 *.pyc
 

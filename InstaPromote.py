@@ -1,10 +1,18 @@
+import os
+from dotenv import load_dotenv
 from instabot import Bot
 
+# Load environment variables from .env file
+load_dotenv()
+
+# Fetch Instagram credentials from environment variables
+username = os.getenv('INSTAGRAM_USERNAME')
+password = os.getenv('INSTAGRAM_PASSWORD')
 # Create a bot instance
 bot = Bot()
 
 # Login to your Instagram account
-bot.login(username='your_username', password='your_password')
+bot.login(username=username, password=password)
 
 # Like posts with specific hashtags
 hashtags = ['peptides', 'fitness', 'bodybuilding']
