@@ -1,0 +1,13 @@
+2024-10-23 12:13:16,520 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2024-10-23 12:13:16,520 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\v-gcondon\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\instabot\bot\bot.py
+2024-10-23 12:13:29,237 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2024-10-23 12:13:29,465 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2024-10-23 12:13:29,607 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2024-10-23 12:13:29,813 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2024-10-23 12:13:29,939 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2024-10-23 12:13:31,771 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2024-10-23 12:13:31,771 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/AXHtoMBUgLMwC-_GlUuHbx71bfomKi-6fLakIjE16iH8f014kGP2iGjres06TbrbSjUlhd8/AfxNLaspgIsF3oIaxvwiGvBkyorLlwawovSVLmfbJeXa92t0WE0pH1ruW0RUyxzhr48zDthZNYliPw/","api_path":"/challenge/AXHtoMBUgLMwC-_GlUuHbx71bfomKi-6fLakIjE16iH8f014kGP2iGjres06TbrbSjUlhd8/AfxNLaspgIsF3oIaxvwiGvBkyorLlwawovSVLmfbJeXa92t0WE0pH1ruW0RUyxzhr48zDthZNYliPw/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail","error_type":"checkpoint_challenge_required"}'
+2024-10-23 12:13:31,771 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2024-10-23 12:13:31,772 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2024-10-23 12:13:31,772 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2024-10-23 12:13:31,772 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #peptides.

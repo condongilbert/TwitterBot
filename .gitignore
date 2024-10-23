@@ -3,6 +3,8 @@ TwitterInfo.env
 
 *.env
 
+secret.txt
+
 # Ignore compiled Python files
 *.pyc
 
