@@ -1,14 +1,18 @@
 import tweepy
 import time
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 # Set up your credentials
-API_KEY = 'your_api_key'
-API_SECRET_KEY = 'your_api_secret_key'
-ACCESS_TOKEN = 'your_access_token'
-ACCESS_TOKEN_SECRET = 'your_access_token_secret'
+api_key = os.getenv('TWITTER_API_KEY')
+api_secret = os.getenv('TWITTER_API_SECRET')
+access_token = os.getenv('TWITTER_ACCESS_TOKEN')
+access_secret = os.getenv('TWITTER_ACCESS_SECRET')
 
 # Authenticate to Twitter
-auth = tweepy.OAuth1UserHandler(API_KEY, API_SECRET_KEY, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
+auth = tweepy.OAuth1UserHandler(api_key, api_secret, access_token, access_secret)
 api = tweepy.API(auth)
 
 # Define keywords for searching tweets
